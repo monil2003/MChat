@@ -5,14 +5,15 @@ import { GoogleAuthProvider } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAGvj-Iv746aPyttJX-KMe0d74G4x7woDA",
-    authDomain: "chat-app-9a481.firebaseapp.com",
-    projectId: "chat-app-9a481",
-    storageBucket: "chat-app-9a481.appspot.com",
-    messagingSenderId: "293415510920",
-    appId: "1:293415510920:web:8684240a492a6489fa903d",
-    measurementId: "G-6J8S4SBV3J"
-  };
+  apiKey: "AIzaSyBUNY_oylRQx9XUb6U4m0gbnHFnU_zTZG4",
+  authDomain: "masterchat-882bd.firebaseapp.com",
+  projectId: "masterchat-882bd",
+  storageBucket: "masterchat-882bd.appspot.com",
+  messagingSenderId: "915755420481",
+  appId: "1:915755420481:web:c8dac152960236b70e2fc0",
+  measurementId: "G-L07PSG5E9D"
+};
+
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
